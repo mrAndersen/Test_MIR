@@ -2,8 +2,8 @@
 
 Тестовое задание для "МИР", написано с использованием doctrine-orm и composer для того чтобы развернуть проект необходимо:
   
-  1) git pull <папка с проектом>
-  2) php composer.phar install -d=<папка с проектом>
-  3) <папка с проектом>\vendor\bin\doctrine orm:schema-tool:update --force для обновления схемы базы данных
+  - git pull <папка с проектом>
+  - php composer.phar install -d=<папка с проектом>
+  - <папка с проектом>\vendor\bin\doctrine orm:schema-tool:update --force для обновления схемы базы данных
   
 Приведенные в задании методы содержатсья в test.php, само исполнение скрипта создаст базу и заполнит начальными данными.
