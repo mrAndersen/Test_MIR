@@ -1,0 +1,10 @@
+[
+  {
+    "id": 2,
+    "name": "Test",
+    "age": 20,
+    "sex": "Male",
+    "type": "Admin",
+    "notify_type": "Sms"
+  }
+]
