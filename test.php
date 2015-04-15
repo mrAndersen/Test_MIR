@@ -4,7 +4,7 @@ require_once "vendor/autoload.php";
 //Создаем первичные данные в базе
 \Lib\Database::initDatabase();
 
-//Получаем экземплят EntityManager
+//Получаем экземпляр EntityManager
 $em = \Lib\Database::createEm();
 
 //Создаем типо контроллер :)
